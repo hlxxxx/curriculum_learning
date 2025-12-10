@@ -12,3 +12,5 @@
 - step3：
   `accelerate launch train.py`
 - 可更改参数在config.py和train.py
+- 下载数据集：
+    `huggingface-cli download --repo-type dataset --token your_token --resume-download qwedsacf/competition_math --cache-dir ./dataset --local-dir-use-symlinks False`
